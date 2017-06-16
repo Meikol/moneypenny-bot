@@ -137,7 +137,15 @@ class WebhookHandler(webapp2.RequestHandler):
         elif 'moon' in text:
             reply('http://www.louwmanexclusive.com/nl/brands/lamborghini/')
         elif 'bitch' in text:
-            reply('dont talk to me like that!')    
+            reply('dont talk to me like that!') 
+        elif 'Peyman' in text:
+            reply('you misspelled crypto-God. try again')
+        elif 'dip' in text:
+            reply('BTFD!')
+        elif 'going up' in text:
+            reply('FOMO!')
+        elif 'Mark' in text:
+            reply('http://fotozon.com/fotos/taiwan_17_1519_500289992270157_big.jpg')    
         else:
             if getEnabled(chat_id):
                 reply('I got your message! (but I do not know how to answer)')
